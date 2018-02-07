@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="model.SelectionController">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="700.0">
+         <children>
+            <Button fx:id="al4es" layoutX="200.0" layoutY="62.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="168.0" text="Absent List for each Session" />
+            <Button fx:id="al4est" layoutX="200.0" layoutY="112.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="168.0" text="Absent List for each Student" />
+            <Button fx:id="al" layoutX="200.0" layoutY="162.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="300.0" text="Accepted List" />
+            <Button fx:id="ap" layoutX="200.0" layoutY="255.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="300.0" text="Acceptance Percentage" />
+            <Button fx:id="wce" layoutX="200.0" layoutY="301.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="300.0" text=" Was Class Effective" />
+            <Button fx:id="sr" layoutX="200.0" layoutY="350.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="168.0" text="Student Report" />
+            <Button fx:id="fl" layoutX="200.0" layoutY="208.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="300.0" text="Failed List" />
+            <Button fx:id="vl4fe" layoutX="200.0" layoutY="400.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="300.0" text="Verified List for Final Exam" />
+            <Label layoutX="382.0" layoutY="70.0" text="SessionID" />
+            <Label layoutX="382.0" layoutY="120.0" text="StudentID" />
+            <Label layoutX="381.0" layoutY="358.0" text="StudentID" />
+            <TextField fx:id="sessionID" layoutX="445.0" layoutY="66.0" prefHeight="25.0" prefWidth="54.0" />
+            <TextField fx:id="studentID1" layoutX="445.0" layoutY="116.0" prefHeight="25.0" prefWidth="54.0" />
+            <TextField fx:id="studentID2" layoutX="445.0" layoutY="354.0" prefHeight="25.0" prefWidth="54.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
